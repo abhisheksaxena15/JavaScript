@@ -97,3 +97,12 @@ Non-primitive datatypes:
 Array - object
 Function - function(object)
 Object - object */
+
+
+/*
+stack ---> primitive
+heap  ---> non primitive
+
+stack give the copy but hea giue the reference , 
+changes occur in the copied dt <----- stack
+changes occur in the the actual value , give the reference <--- heap*/
