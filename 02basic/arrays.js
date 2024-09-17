@@ -44,6 +44,7 @@ console.log(fruits);        // ['apple', 'banana', 'cherry', 'date'] (unchanged)
 
 
 let fruits01 = ['apple', 'banana', 'cherry', 'date'];
+console.log(fruits01);
 fruits01.splice(1, 2, );  // Removes 2 items starting from index 1, and adds 'grape' and 'kiwi'
 console.log(fruits01);  // ['apple', 'grape', 'kiwi', 'date'] (modified)
 
@@ -51,3 +52,12 @@ console.log(fruits01);  // ['apple', 'grape', 'kiwi', 'date'] (modified)
 Key difference:
 slice() doesn't change the original array.
 splice() modifies the original array.*/
+
+
+const b = [6, 8, 9, 4, 8, 5]
+console.log(b.includes(8))
+
+const array = b.join()// converting array into string
+console.log(b);  
+console.log(array);
+console.log(typeof array);
