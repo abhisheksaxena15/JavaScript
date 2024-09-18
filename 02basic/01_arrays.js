@@ -15,7 +15,7 @@ console.log(x);
 
 
 const y = [...a, ...b]     //... --> coverts the elements of arrays as single elements
-console.log(y);
+//console.log(y);
 
 //    flat
 //{ creates a newa array wiht all the sub array elements as a mew array}
@@ -23,7 +23,7 @@ console.log(y);
 const anotherarray = [3, 5, 6, 7, [7, 8, 9, 7], [8, 9, [4, 2]]]
 
 const realarray = anotherarray.flat(Infinity)
-console.log(realarray);
+//console.log(realarray);
 
 
 console.log(Array.isArray("abhishek"));
@@ -45,4 +45,4 @@ m = 10
 l = 200
 c = 489
 
-console.log(Array.of(m ,l ,c))
+//console.log(Array.of(m ,l ,c))
