@@ -1,20 +1,20 @@
-// const a = function(){
-//     console.log("hello world")
-// }
+const a = function(){
+    console.log("hello world")
+}
 
-// a()
+a()
 
 
-// function x (){
-//     console.log("hello world")
-// }
-// x()
+function x (){
+    console.log("hello world")
+}
+x()
 
-// function addition(num1 , num2){
-//     console.log(num1 + num2)
-// }
+function addition(num1 , num2){
+    console.log(num1 + num2)
+}
 
-// addition(12,12)
+addition(12,12)
 
 
 
@@ -40,10 +40,10 @@ console.log("Rrsult : " , r);
 
 /************************************************/
 
-// function logginuser(usrername){
-//     console.log( `Just now ${usrername} logge in` )
-// }
-// logginuser("abhishek")
+function logginuser(usrername){
+    console.log( `Just now ${usrername} logge in` )
+}
+logginuser("abhishek")
 
 
 function logginuser(usrername){
