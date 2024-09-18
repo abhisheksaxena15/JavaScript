@@ -33,8 +33,7 @@ console.log(x)*/              //wrong
 
 const obj3 = Object.assign({} , obj01 , obj02)     //assign(tagert , source) -->  obj01 , obj02 into {}
 console.log(obj3)
-
-console.log(obj3 === {});
+//console.log(obj3 === {});/**********************_______________________ */
 
 
 /*
