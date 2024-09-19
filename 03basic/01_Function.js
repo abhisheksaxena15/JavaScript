@@ -46,7 +46,14 @@ function logginuser(usrername){
 logginuser("abhishek")
 
 
+/*************************************************/
 function logginuser(usrername){
+    if(usrername === undefined){
+        console.log("username is not defined"),// when noinput is passed then instead of getting undefined,
+        console.log("entr the valid username!!")
+        return
+    }
     return ( `Just now ${usrername} logge in` )
 }
-console.log(logginuser("abhishek"))
+console.log(logginuser( ))
+/**************************************************/
