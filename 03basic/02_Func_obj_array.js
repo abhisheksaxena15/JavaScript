@@ -20,3 +20,27 @@ function handleobject(anyobject){
 }
 
 handleobject(user)
+
+
+
+
+/*************     ARRAY      *******************/
+
+// const myarray = [12,23, 23, 45, 43, 22]
+
+// const a = function (){
+//     const array = [12,23, 23, 45, 43, 22]
+//     return array[2]
+// }
+
+// // const x = a()
+// console.log(a())
+
+
+const x = function (arr){
+    return arr[2]
+}
+//console.log(x([12,23, 23, 45, 43, 22]))
+const arr = [12, 88 ,99 ,77]
+console.log(x(arr));
+
