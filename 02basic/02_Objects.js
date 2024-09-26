@@ -56,3 +56,21 @@ jsusero1.greeting01 = function(){
 
 }
 console.log(jsusero1.greeting01())
+
+
+
+
+
+/*****************************************************************************
+false == " "
+false == 0
+0 == " "
+ All are true
+
+ const x ={}
+
+if(Object.keys(x).length === 0){
+    console.log("empty");
+    
+}
+//Object.keys(x) -->>>> converts objects into array*/
