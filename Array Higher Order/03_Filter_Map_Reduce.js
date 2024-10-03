@@ -28,7 +28,7 @@ console.log(newarray);
 
 //both the mthod can be used both will give yiou answers but in foreach in such casaes for returning we have to apply some logic
 
-
+/************************************* FILTER ****************************************/
 
 const books = [
     { title: 'Book Five', genre: 'Science', publish: 2009, edition: 2014 },

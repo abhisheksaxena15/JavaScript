@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript basic</title>
+</head>
+<body style="background-color: #212121; color: rgb(184, 217, 245);">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+    
+</body>
+<script>
+    function addlanguage(langName){
+        const li = document.createElement("li");
+        li.innerHTML = `${langName}`;
+        document.querySelector(".language").appendChild(li)
+
+    }
+    addlanguage("Java")
+    addlanguage("React")
+    addlanguage("Python")
+    
+    function opti_lang(langName){
+        const li = document.createElement("li");
+        const x = document.createTextNode(langName);
+        li.appendChild(x);
+        document.querySelector(".language").appendChild(li)
+    }
+    opti_lang("ruby")
+
+
+    // edit
+
+    const y = document.querySelector("li:nth-child(2)")
+    // y.innerHTML = "C++"
+
+    const newli = document.createElement("li")
+    newli.textContent = "C++"
+    y.replaceWith(newli)
+
+    //Edit
+
+    const firstlang = document.querySelector("li:nth-child(1)")
+    firstlang.innerHTML = "html"
+
+    //Remove
+    const removelang = document.querySelector("li:last-child")
+    //removelang.remove()
+</script>
+</html>
